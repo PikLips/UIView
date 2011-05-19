@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C4DC26C13269F10008A7EF0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C4DC26B13269F10008A7EF0 /* UIKit.framework */; };
+		4C4DC26E13269F10008A7EF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C4DC26D13269F10008A7EF0 /* Foundation.framework */; };
+		4C4DC27013269F10008A7EF0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C4DC26F13269F10008A7EF0 /* CoreGraphics.framework */; };
+		4C4DC27613269F10008A7EF0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C4DC27413269F10008A7EF0 /* InfoPlist.strings */; };
+		4C4DC27913269F10008A7EF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4DC27813269F10008A7EF0 /* main.m */; };
+		4C4DC27C13269F10008A7EF0 /* UIVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4DC27B13269F10008A7EF0 /* UIVAppDelegate.m */; };
+		4C4DC27F13269F10008A7EF0 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C4DC27D13269F10008A7EF0 /* MainWindow.xib */; };
+		4C4DC28213269F10008A7EF0 /* UIVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4DC28113269F10008A7EF0 /* UIVViewController.m */; };
+		4C4DC28513269F10008A7EF0 /* UIVViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C4DC28313269F10008A7EF0 /* UIVViewController.xib */; };
+		4C4DC28C13269F10008A7EF0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C4DC26B13269F10008A7EF0 /* UIKit.framework */; };
+		4C4DC28D13269F10008A7EF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C4DC26D13269F10008A7EF0 /* Foundation.framework */; };
+		4C4DC28E13269F10008A7EF0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C4DC26F13269F10008A7EF0 /* CoreGraphics.framework */; };
+		4C4DC29613269F10008A7EF0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C4DC29413269F10008A7EF0 /* InfoPlist.strings */; };
+		4C4DC29913269F10008A7EF0 /* UIVTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 4C4DC29813269F10008A7EF0 /* UIVTests.h */; };
+		4C4DC29B13269F10008A7EF0 /* UIVTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4DC29A13269F10008A7EF0 /* UIVTests.m */; };
+		4C4DC33A1326F0D8008A7EF0 /* UIVView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4DC3391326F0D8008A7EF0 /* UIVView.m */; };
+		4C7C03C11329B6BD00AD477E /* demoImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C7C03C01329B6BD00AD477E /* demoImage.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C4DC28F13269F10008A7EF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C4DC25E13269F10008A7EF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C4DC26613269F10008A7EF0;
+			remoteInfo = UIV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C4DC26713269F10008A7EF0 /* UIV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C4DC26B13269F10008A7EF0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4C4DC26D13269F10008A7EF0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4C4DC26F13269F10008A7EF0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4C4DC27313269F10008A7EF0 /* UIV-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIV-Info.plist"; sourceTree = "<group>"; };
+		4C4DC27513269F10008A7EF0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4C4DC27713269F10008A7EF0 /* UIV-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIV-Prefix.pch"; sourceTree = "<group>"; };
+		4C4DC27813269F10008A7EF0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4C4DC27A13269F10008A7EF0 /* UIVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIVAppDelegate.h; sourceTree = "<group>"; };
+		4C4DC27B13269F10008A7EF0 /* UIVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIVAppDelegate.m; sourceTree = "<group>"; };
+		4C4DC27E13269F10008A7EF0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		4C4DC28013269F10008A7EF0 /* UIVViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIVViewController.h; sourceTree = "<group>"; };
+		4C4DC28113269F10008A7EF0 /* UIVViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIVViewController.m; sourceTree = "<group>"; };
+		4C4DC28413269F10008A7EF0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/UIVViewController.xib; sourceTree = "<group>"; };
+		4C4DC28B13269F10008A7EF0 /* UIVTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIVTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C4DC29313269F10008A7EF0 /* UIVTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIVTests-Info.plist"; sourceTree = "<group>"; };
+		4C4DC29513269F10008A7EF0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4C4DC29713269F10008A7EF0 /* UIVTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIVTests-Prefix.pch"; sourceTree = "<group>"; };
+		4C4DC29813269F10008A7EF0 /* UIVTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIVTests.h; sourceTree = "<group>"; };
+		4C4DC29A13269F10008A7EF0 /* UIVTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIVTests.m; sourceTree = "<group>"; };
+		4C4DC3371326C3FD008A7EF0 /* UIViewConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewConstants.h; sourceTree = "<group>"; };
+		4C4DC3381326F0D8008A7EF0 /* UIVView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIVView.h; sourceTree = "<group>"; };
+		4C4DC3391326F0D8008A7EF0 /* UIVView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIVView.m; sourceTree = "<group>"; };
+		4C7C03C01329B6BD00AD477E /* demoImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demoImage.png; sourceTree = "<group>"; };
+		4C8032F31385C09400BB1DBD /* license.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = license.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C4DC26413269F10008A7EF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C4DC26C13269F10008A7EF0 /* UIKit.framework in Frameworks */,
+				4C4DC26E13269F10008A7EF0 /* Foundation.framework in Frameworks */,
+				4C4DC27013269F10008A7EF0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C4DC28713269F10008A7EF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C4DC28C13269F10008A7EF0 /* UIKit.framework in Frameworks */,
+				4C4DC28D13269F10008A7EF0 /* Foundation.framework in Frameworks */,
+				4C4DC28E13269F10008A7EF0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C4DC25C13269F10008A7EF0 = {
+			isa = PBXGroup;
+			children = (
+				4C4DC27113269F10008A7EF0 /* UIV */,
+				4C4DC29113269F10008A7EF0 /* UIVTests */,
+				4C4DC26A13269F10008A7EF0 /* Frameworks */,
+				4C4DC26813269F10008A7EF0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C4DC26813269F10008A7EF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C4DC26713269F10008A7EF0 /* UIV.app */,
+				4C4DC28B13269F10008A7EF0 /* UIVTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C4DC26A13269F10008A7EF0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C4DC26B13269F10008A7EF0 /* UIKit.framework */,
+				4C4DC26D13269F10008A7EF0 /* Foundation.framework */,
+				4C4DC26F13269F10008A7EF0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C4DC27113269F10008A7EF0 /* UIV */ = {
+			isa = PBXGroup;
+			children = (
+				4C7C03C01329B6BD00AD477E /* demoImage.png */,
+				4C4DC27A13269F10008A7EF0 /* UIVAppDelegate.h */,
+				4C4DC27B13269F10008A7EF0 /* UIVAppDelegate.m */,
+				4C4DC27D13269F10008A7EF0 /* MainWindow.xib */,
+				4C4DC28013269F10008A7EF0 /* UIVViewController.h */,
+				4C4DC28113269F10008A7EF0 /* UIVViewController.m */,
+				4C8032F31385C09400BB1DBD /* license.txt */,
+				4C4DC28313269F10008A7EF0 /* UIVViewController.xib */,
+				4C4DC3381326F0D8008A7EF0 /* UIVView.h */,
+				4C4DC3391326F0D8008A7EF0 /* UIVView.m */,
+				4C4DC27213269F10008A7EF0 /* Supporting Files */,
+			);
+			path = UIV;
+			sourceTree = "<group>";
+		};
+		4C4DC27213269F10008A7EF0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C4DC27313269F10008A7EF0 /* UIV-Info.plist */,
+				4C4DC27413269F10008A7EF0 /* InfoPlist.strings */,
+				4C4DC27713269F10008A7EF0 /* UIV-Prefix.pch */,
+				4C4DC27813269F10008A7EF0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4C4DC29113269F10008A7EF0 /* UIVTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C4DC3371326C3FD008A7EF0 /* UIViewConstants.h */,
+				4C4DC29813269F10008A7EF0 /* UIVTests.h */,
+				4C4DC29A13269F10008A7EF0 /* UIVTests.m */,
+				4C4DC29213269F10008A7EF0 /* Supporting Files */,
+			);
+			path = UIVTests;
+			sourceTree = "<group>";
+		};
+		4C4DC29213269F10008A7EF0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C4DC29313269F10008A7EF0 /* UIVTests-Info.plist */,
+				4C4DC29413269F10008A7EF0 /* InfoPlist.strings */,
+				4C4DC29713269F10008A7EF0 /* UIVTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C4DC26613269F10008A7EF0 /* UIV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C4DC29E13269F10008A7EF0 /* Build configuration list for PBXNativeTarget "UIV" */;
+			buildPhases = (
+				4C4DC26313269F10008A7EF0 /* Sources */,
+				4C4DC26413269F10008A7EF0 /* Frameworks */,
+				4C4DC26513269F10008A7EF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIV;
+			productName = UIV;
+			productReference = 4C4DC26713269F10008A7EF0 /* UIV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C4DC28A13269F10008A7EF0 /* UIVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C4DC2A113269F10008A7EF0 /* Build configuration list for PBXNativeTarget "UIVTests" */;
+			buildPhases = (
+				4C4DC28613269F10008A7EF0 /* Sources */,
+				4C4DC28713269F10008A7EF0 /* Frameworks */,
+				4C4DC28813269F10008A7EF0 /* Resources */,
+				4C4DC28913269F10008A7EF0 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C4DC29013269F10008A7EF0 /* PBXTargetDependency */,
+			);
+			name = UIVTests;
+			productName = UIVTests;
+			productReference = 4C4DC28B13269F10008A7EF0 /* UIVTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C4DC25E13269F10008A7EF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "PikLips LLC";
+			};
+			buildConfigurationList = 4C4DC26113269F10008A7EF0 /* Build configuration list for PBXProject "UIV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4C4DC25C13269F10008A7EF0;
+			productRefGroup = 4C4DC26813269F10008A7EF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C4DC26613269F10008A7EF0 /* UIV */,
+				4C4DC28A13269F10008A7EF0 /* UIVTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C4DC26513269F10008A7EF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C4DC27613269F10008A7EF0 /* InfoPlist.strings in Resources */,
+				4C4DC27F13269F10008A7EF0 /* MainWindow.xib in Resources */,
+				4C4DC28513269F10008A7EF0 /* UIVViewController.xib in Resources */,
+				4C7C03C11329B6BD00AD477E /* demoImage.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C4DC28813269F10008A7EF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C4DC29613269F10008A7EF0 /* InfoPlist.strings in Resources */,
+				4C4DC29913269F10008A7EF0 /* UIVTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4C4DC28913269F10008A7EF0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C4DC26313269F10008A7EF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C4DC27913269F10008A7EF0 /* main.m in Sources */,
+				4C4DC27C13269F10008A7EF0 /* UIVAppDelegate.m in Sources */,
+				4C4DC28213269F10008A7EF0 /* UIVViewController.m in Sources */,
+				4C4DC33A1326F0D8008A7EF0 /* UIVView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C4DC28613269F10008A7EF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C4DC29B13269F10008A7EF0 /* UIVTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C4DC29013269F10008A7EF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C4DC26613269F10008A7EF0 /* UIV */;
+			targetProxy = 4C4DC28F13269F10008A7EF0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C4DC27413269F10008A7EF0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C4DC27513269F10008A7EF0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4C4DC27D13269F10008A7EF0 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C4DC27E13269F10008A7EF0 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		4C4DC28313269F10008A7EF0 /* UIVViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C4DC28413269F10008A7EF0 /* en */,
+			);
+			name = UIVViewController.xib;
+			sourceTree = "<group>";
+		};
+		4C4DC29413269F10008A7EF0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C4DC29513269F10008A7EF0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C4DC29C13269F10008A7EF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4C4DC29D13269F10008A7EF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		4C4DC29F13269F10008A7EF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIV/UIV-Prefix.pch";
+				INFOPLIST_FILE = "UIV/UIV-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4C4DC2A013269F10008A7EF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIV/UIV-Prefix.pch";
+				INFOPLIST_FILE = "UIV/UIV-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4C4DC2A213269F10008A7EF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UIV.app/UIV";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIVTests/UIVTests-Prefix.pch";
+				INFOPLIST_FILE = "UIVTests/UIVTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		4C4DC2A313269F10008A7EF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UIV.app/UIV";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIVTests/UIVTests-Prefix.pch";
+				INFOPLIST_FILE = "UIVTests/UIVTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C4DC26113269F10008A7EF0 /* Build configuration list for PBXProject "UIV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C4DC29C13269F10008A7EF0 /* Debug */,
+				4C4DC29D13269F10008A7EF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C4DC29E13269F10008A7EF0 /* Build configuration list for PBXNativeTarget "UIV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C4DC29F13269F10008A7EF0 /* Debug */,
+				4C4DC2A013269F10008A7EF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C4DC2A113269F10008A7EF0 /* Build configuration list for PBXNativeTarget "UIVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C4DC2A213269F10008A7EF0 /* Debug */,
+				4C4DC2A313269F10008A7EF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C4DC25E13269F10008A7EF0 /* Project object */;
+}
